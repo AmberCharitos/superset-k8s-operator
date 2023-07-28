@@ -1,0 +1,6 @@
+sqlalchemy-trino
+psycopg2
+SQLAlchemy
+trino
+Authlib
+elasticsearch-dbapi
