@@ -33,4 +33,5 @@ header:
     - 'LICENSE'
     - 'trivy.yaml'
     - 'lib/**'
+    - 'templates/*'
   comment: on-failure
