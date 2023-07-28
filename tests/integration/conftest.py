@@ -1,7 +1,7 @@
 # Copyright 2023 Canonical Ltd.
 # See LICENSE file for licensing details.
 
-"""Trino charm integration test config."""
+"""Charm integration test config."""
 
 import logging
 
@@ -29,7 +29,7 @@ async def deploy(ops_test: OpsTest):
         ]
     }
 
-    # Deploy trino, tls and nginx charms
+    # Deploy superset, tls and nginx charms
     await ops_test.model.deploy(
         charm,
         resources=resources,

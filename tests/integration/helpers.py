@@ -2,7 +2,7 @@
 # Copyright 2023 Canonical Ltd.
 # See LICENSE file for licensing details.
 
-"""Trino charm integration test helpers."""
+"""Charm integration test helpers."""
 
 import logging
 from pathlib import Path
